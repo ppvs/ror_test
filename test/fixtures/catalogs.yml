@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  catalog: MyText
+  description: MyText
+  price: 1
+  producer: MyText
+  stock: 1
+  parent: MyText
+  path: MyText
+  sale: 1
+  articul: MyString
+  pic: MyString
+  param1: MyString
+  param2: MyString
+
+two:
+  code: MyString
+  catalog: MyText
+  description: MyText
+  price: 1
+  producer: MyText
+  stock: 1
+  parent: MyText
+  path: MyText
+  sale: 1
+  articul: MyString
+  pic: MyString
+  param1: MyString
+  param2: MyString

@@ -1,0 +1,70 @@
+﻿@media screen and (max-width: 800px) and (min-width: 610px) {
+#main_center {
+   max-height: 100%;
+   min-height: 350px;
+   height: auto;
+   text-align: center;
+   margin: 30 auto;
+   max-width: 100%;
+   width: auto;
+   display: inline-block;
+   padding: 10px;
+}
+
+   #main_center div {
+     width: 260px;
+     height: 140px;
+      float: left;
+      margin: 0 5px 20px 5px;
+     top: 0; left: 0; bottom: 0; right: 0;
+     position: relative;  
+     text-align: center; 
+   }
+   
+   #header_bottom ul {
+      display: none;
+   }
+   
+   #touch_menu {
+      display: block;
+   }
+   
+   #header {
+      height: 185px;
+   } 
+   
+   #header_top {
+      height: 150px;
+   }
+   
+   #header_bottom ul{
+      position: absolute;
+      background: #ffffff;
+   } 
+   
+   #header_bottom ul li {
+      float: none;
+   }
+
+   #header_bottom ul li:hover ul {
+      margin: -25px 0 0 185px;
+   }
+   
+   #logo {
+      margin: 0 auto;
+      float: none;
+      top: 0; left: 0; bottom: 0; right: 0;
+      position: relative;
+      padding: 10px;
+      text-align: center;      
+   } 
+   
+   #contact {
+      margin: 0 auto;
+      float: none;
+      top: 0; left: 0; bottom: 0; right: 0;
+      position: relative;
+      padding: 10px;
+      text-align: center;
+   }
+}

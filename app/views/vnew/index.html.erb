@@ -1,0 +1,90 @@
+<script type="text/javascript">
+    function openMenu(id) {
+        overlay = document.getElementById("overlay");
+        if (document.getElementById(id).style.display == "none"){
+            document.getElementById(id).style.display = "block";
+            overlay.style.display = "block";
+        } else {
+            document.getElementById(id).style.display = "none";
+            overlay.style.display = "none";
+        }
+    }
+</script>
+<script type="text/javascript">
+    function openMenu(id) {
+        overlay = document.getElementById("overlay");
+        if (document.getElementById(id).style.display == "none"){
+            document.getElementById(id).style.display = "block";
+            overlay.style.display = "block";
+        } else {
+            document.getElementById(id).style.display = "none";
+            overlay.style.display = "none";
+        }
+    }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<body>
+<div id="wrap">
+  <div id="left_side_mob">
+    <ul id="menu_mob">
+      <li><a href="#">My projects</a></li>
+      <li><a href="#">Install</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+  </div>
+  <div id="header">
+    <div id="header_top">
+      <div id="logo">
+        <a href="http://localhost/vnew"><img src="logo.png"/></a>
+        <a><img src="img/slogan.png"/></a>
+      </div>
+      <div id="contact">
+        <p>+375 29 753 24 61</p>
+        <p>+375 17 290 73 70</p>
+        <p>shop@ohotnik.by</p>
+      </div>
+      <div id="search">
+
+      </div>
+    </div>
+    <div id="header_bottom">
+      <a href="#" id="touch_menu" onclick="openMenu('left_side_mob');return(false)">Меню</a>
+      <div id="menu2">
+        <ul id="sub_menu">
+          <li><a>Doors</a><ul><li><a>aaa</a></li></ul></li>
+          <li><a href="page.php?page=1">Наши работы</a></li>
+          <li><a href="page.php?page=2">Установка и доставка</a></li>
+          <li><a href="page.php?page=3">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div id="main">
+      <div id="slider1">
+        <a href="#"></a>
+      </div>
+      <div id="slider1">
+        <a href="#"><img src="img/slider.jpg"/></a>
+      </div>
+      <div id="main_center">
+        <div id="link">
+          <a href="#"><img src="/cat.jpg"/></a>
+          <div><a href="#">Открыть каталог</a></div>
+        </div>
+        <div id="link">
+          <a href="#"><img src="/images/inst.jpg"/></a>
+          <div><a href="#">Наши работы</a></div>
+        </div>
+        <div id="link">
+          <a href="#"><img src="img/sale.jpg"/></a>
+          <div><a href="#">Скидки</a></div>
+        </div>
+      </div>
+    </div>
+  <div id="footer">
+
+  </div>
+</div>
+</body>
+</html>

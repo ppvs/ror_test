@@ -1,0 +1,313 @@
+#left_side_mob {
+float: left;
+top: 35px;
+Left: 0;
+width: 78%;
+height: 90%;
+position: fixed;
+background: #EAEAEA;
+overflow-y: scroll;
+border: 1px solid #000000;
+box-shadow: 0 0 10px #2E2E2E;
+z-index: 3;
+}
+
+#menu_mob {
+   display: inline-block;
+   width: 100%;
+   min-width: 210px;
+
+      
+}
+
+#menu_mob>li {
+   margin: 10px;
+   background: #4D4D4D;
+   margin-bottom: 20px;
+   display: list-item;
+    
+}
+
+#menu_mob li a {
+   display: block;
+   text-decoration: none;
+   padding: 8px 0 10px 14px;
+   vertical-align: baseline;
+   width: 100%;
+   color: #FFFFFF;
+}
+
+#menu_mob ul {
+   background: #f8f8f8;
+ /*  padding-top: 10px;
+   padding-bottom: 10px;*/
+   display: block;
+   
+}
+
+#menu_mob ul li{
+   background: #f8f8f8;
+
+}
+
+#menu_mob ul li:hover {
+   background: #EEEEEE;
+}
+
+#menu_mob ul li a {
+   color: #000000;
+   border-bottom: 1px solid #C0C0C0;
+   padding: 10px 0 10px 14px;
+   width: 94%;
+}
+
+#overlay {
+   width: 100%;
+   height: 100%;
+   background: #000000;
+   opacity: 0.70;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 1;
+   display: none;
+}
+
+
+@media screen and (max-width: 819px) and (min-width: 610px) {
+#main_center {
+   max-height: 100%;
+   min-height: 350px;
+   height: auto;
+   text-align: center;
+   margin: 30 auto;
+   max-width: 100%;
+   width: auto;
+   display: inline-block;
+   padding: 10px;
+}
+
+   #link {
+     width: 260px;
+     height: 140px;
+      float: left;
+      margin: 0 5px 20px 5px;
+     top: 0; left: 0; bottom: 0; right: 0;
+  /*   position: relative;  */
+     text-align: center; 
+   }
+   
+#link div {
+/*   position: relative;*/
+   width: 100%;
+   height: 25px;
+   margin: -35px 0 0 0;
+   background: #ebebeb;
+   padding: 5px 0 0 0; 
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+}   
+   
+   #sub_menu {
+      display: none;
+   }
+   
+   #sub_menu li:hover {
+ 
+   }
+   
+   #sub_menu li ul {
+      display: block;
+      position: relative;
+
+   }
+   
+   #touch_menu {
+      display: block;
+   }
+   
+   #header {
+      height: 150px;
+      padding: 10px 0 0 0;      
+   } 
+   
+   #header_top {
+      height: 150px;
+   }
+   
+   #sub_menu{
+      position: absolute;
+      background: #ffffff;
+      overflow-y: scroll;
+   } 
+   
+   #sub_menu li {
+      float: none;
+   }
+   
+   #sub_menu li ul {
+      overflow-y: none;
+   }
+
+   #sub_menu li:hover ul {
+      margin: 0;
+   }
+   
+   #header_bottom {
+      position: fixed;
+      top: 0;
+      box-shadow: 0 0 10px #030303;
+      
+   }
+   
+   #logo {
+      margin: 0 auto;
+      float: none;
+      top: 0; left: 0; bottom: 0; right: 0;
+      position: relative;
+      padding: 10px;
+      text-align: center;      
+   } 
+   
+   #contact {
+      margin: 0 auto;
+      float: none;
+      top: 0; left: 0; bottom: 0; right: 0;
+      position: relative;
+      padding: 10px;
+      text-align: center;
+   }
+   
+   #left_side {
+      display: none;
+   }
+   
+   #right_side {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 610px) {
+#main_center {
+   max-height: 100%;
+   min-height: 350px;
+   height: auto;
+   text-align: center;
+   margin: 30 auto;
+   max-width: 100%;
+   width: auto;
+   display: inline-block;
+   padding: 10px;
+}
+
+   #main_center div {
+     width: 260px;
+     height: 140px;
+      float: left;
+      margin: 0 5px 20px 5px;
+     top: 0; left: 0; bottom: 0; right: 0;
+   /*  position: relative;  */
+     text-align: center; 
+   }
+   
+   #header_bottom {
+      position: fixed;
+      top: 0;
+      box-shadow: 0 0 10px #8a8a8a;
+      border-bottom: 1px solid #000000;
+   }
+
+   
+   #touch_menu {
+      display: block;
+   }
+   
+   #header {
+      height: 180px;
+      padding: 10px 0 0 0;
+   } 
+   
+   #header_top {
+      height: 180px;
+   }
+
+   #sub_menu {
+      display: none;
+      width: auto;
+      width: 230px;
+   }
+   
+   #sub_menu li {
+      float: none;
+      background: #afafaf;
+      padding: 10px 25px 0 20px;
+   }
+   
+   #Sub_menu li ul {
+      display: block;
+      position: relative;
+   }
+
+   #sub_menu li ul li {
+      padding: 10px 0 -20px 0;
+   }
+  
+   #logo {
+      margin: 0 auto;
+      float: none;
+      top: 0; left: 0; bottom: 0; right: 0;
+      position: relative;
+      padding: 10px;
+      text-align: center;      
+   } 
+   
+   #contact {
+      margin: 0 auto;
+      float: none;
+      top: 0; left: 0; bottom: 0; right: 0;
+      position: relative;
+      padding: 10px;
+      text-align: center;
+   }
+   
+#link div {
+  /* position: relative;*/
+   width: 100%;
+   height: 25px;
+   margin: -35px 0 0 0;
+   background: #ebebeb;
+   padding: 5px 0 0 0; 
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+} 
+
+   #left_side {
+      display: none;
+   }
+   
+   #right_side {
+      width: 100%;
+   }
+   
+   #filter {
+      margin: 0 0 0 10px;
+   }
+   
+   #plu_item {
+      margin: 10px 5px 10px 5px;
+   }
+   
+   #filter_item p {
+      font-size: 10px;
+   }  
+   
+   #filter_item button {
+      font-size: 10px;
+      margin-top: 21px;
+      height: 22px;
+      width: auto;
+      padding: 0 3px 0 3px;
+   }
+   
+   #filter_item select {
+      height: 22px;
+   }
+}
