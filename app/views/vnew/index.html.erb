@@ -26,40 +26,10 @@
 <html>
 <body>
 <div id="wrap">
-  <div id="left_side_mob">
-    <ul id="menu_mob">
-      <li><a href="#">My projects</a></li>
-      <li><a href="#">Install</a></li>
-      <li><a href="#">Contacts</a></li>
-    </ul>
-  </div>
-  <div id="header">
-    <div id="header_top">
-      <div id="logo">
-        <a href="http://localhost/vnew"><img src="logo.png"/></a>
-        <a><img src="img/slogan.png"/></a>
-      </div>
-      <div id="contact">
-        <p>+375 29 753 24 61</p>
-        <p>+375 17 290 73 70</p>
-        <p>shop@ohotnik.by</p>
-      </div>
-      <div id="search">
 
-      </div>
-    </div>
-    <div id="header_bottom">
-      <a href="#" id="touch_menu" onclick="openMenu('left_side_mob');return(false)">Меню</a>
-      <div id="menu2">
-        <ul id="sub_menu">
-          <li><a>Doors</a><ul><li><a>aaa</a></li></ul></li>
-          <li><a href="page.php?page=1">Наши работы</a></li>
-          <li><a href="page.php?page=2">Установка и доставка</a></li>
-          <li><a href="page.php?page=3">Контакты</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <%=render '/vnew/left_menu.html.erb'
+     render '/vnew/header.html.erb'
+  %>
     <div id="main">
       <div id="slider1">
         <a href="#"></a>
